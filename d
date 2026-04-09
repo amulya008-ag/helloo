@@ -1,5 +1,3 @@
-DEVOPS 
-
 exp 20
 
 terminal- 
@@ -245,8 +243,6 @@ docker run -d -t java.app
 build now console output 
 #################################################################
 
-
-
 exp 18
 Grade.java
 import java.util.Scanner;
@@ -371,7 +367,7 @@ docker run -p 5000:5000 my-python-app1
 Expected output of app.py:
 Hello from Docker Python Container in web browser
  
-
+##################################################################
 exp 15
 
 Verify installation
