@@ -412,6 +412,7 @@ docker stop <container_id>
 Remove container:
 docker rm <container_id>
 
+#########################################################################################
 exp 14
 Steps to Use JaCoCo with Maven
 Step 1: Create a Simple Java Project
@@ -571,4 +572,9 @@ Calculator cal=new Calculator();
 Commands:
 Mvn clean test
 Mvn clean verify
+
+mvn archetype:generate
+mvn clean test
+mvn jacoco:report
+
 
